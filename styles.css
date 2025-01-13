@@ -1,0 +1,113 @@
+@import url("header/header.css");
+@import url("footer.css");
+
+:root{
+    --fundo: #E4E3E3;
+    --cor-menu:#C5C2C2;
+    --cor-azul: #079BE0;
+}
+
+
+body{
+    background-color: var(--fundo);
+    
+}
+.container_nome{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imagem_grande{
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    display: flex;
+    align-items: center;
+    margin: auto 10%;    
+    background-color: var(--cor-menu);
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px  rgba(0, 0, 0, 0.5);
+    
+}
+
+p{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    margin: 2% 5%;
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.botao_curriculo{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    background-color: var(--cor-azul);
+    border-radius: 50px;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 8px  rgba(0, 0, 0, 0.5);   
+    color: var(--fundo); 
+    font-family: "Irish Grover", system-ui;
+    font-style: normal;
+}
+.informacao{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-menu);
+    margin-top: 5%;
+}
+.imagem_Lucas{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px  rgba(0, 0, 0, 0.5);
+    margin: 10%;
+}
+.sobreMim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-sobreMim{
+    font-family: "Irish Grover", system-ui;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 2em;
+    color: var(--cor-azul);
+}
+.texto_sobreMim{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.imagem_ifsp{
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px  rgba(0, 0, 0, 0.5);
+    
+}
+.caixa_texto{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding:2em 0 2em 0 ;
+}
+.org{
+    margin-top: 15px;
+}

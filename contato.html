@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Amilcar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="email.css">
+
+</head>
+<body>
+    <header class="container">
+        
+
+        <div class="container_menu">
+            
+            <input type="checkbox" name="" id="menu" class="check">
+            <label for="menu">
+                <img src="img/Menu.png" alt="Menu_principal" class="menu">
+            </label>
+            <ul class="lista_menu">
+                <li class="lista_menu_titulo">MENU</li>
+                <li class="lista_menu_item" ><a class="lista_menu_link" href="#">Sobre mim</a></li>
+                <li class="lista_menu_item"><a class="lista_menu_link" href="#">Formação</a></li>
+                <li class="lista_menu_item"><a class="lista_menu_link" href="#">Habilidades</a></li>
+                <li class="lista_menu_item"><a class="lista_menu_link" href="#">Experiências</a></li>
+                
+            </ul>
+
+            
+        </div>
+
+        <div class="container_menu cont__menu">
+            <a href="#"><img src="img/carta.png" alt="Contato_menu" class="contato ico_menu"></a>
+            <a href="index.html"><img src="img/Home.png" alt="Home_menu" class="home ico_menu"></a>
+        </div>
+    </header>
+    <section class="imagem_de_email">
+        <img class="email_imagem" src="img/Group 4.png" alt="">
+    </section>
+    <form action="https://formspree.io/f/xjkbqvrw" method="POST">
+        <div class="form-row">
+            <div class="form-group">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Nome:</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" required>
+                <label for="email">E-mail:</label>
+            </div>
+        </div>
+
+        <div class="form-group2">
+            
+            <textarea id="message" name="message" required></textarea>
+            <label for="message">Mensagem:</label>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

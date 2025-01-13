@@ -1,0 +1,85 @@
+.imagem_de_email{
+    display:flex ;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+}
+.form-group{
+    position: relative;
+    
+}
+.form-group label{
+    position: absolute;
+    left: 10%;
+    bottom: 3px;
+    color: rgb(150, 150, 150);
+}
+.form-group input{
+    width: 75vw;
+    
+    border: 0;
+    border-bottom: 2px solid rgba(200, 200,200 , 1);
+    background-color: transparent;
+    margin-top: 6%;
+    margin-left: 10%;
+    outline: none;
+}
+.form-group2{
+    position: relative;
+    margin-top: 10%;
+    width: 100vw;
+}
+.form-group2 label{
+    display: flex;
+    position: absolute;
+    left: 15%;
+    top: 10px;
+    color: rgb(150, 150, 150);
+}
+.form-group2 textarea{
+    outline: none;
+    width: 75vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 338px;
+    border-radius: 30px;
+    border: 2px solid rgb(150, 150, 150);
+    background-color: #C5C2C2;
+    padding: 2%;
+    
+}
+form button{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 0 0 5px 3px #00000073;
+    background-color: var(--cor-azul);
+    color: white;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 26px;
+    font-family: "Irish Grover", system-ui;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-group input:focus{
+    border-bottom: 2px solid var(--cor-azul);
+}
+.form-group input:focus ~ label{
+    transform: translateY(-200%);
+    font-size: 10px;
+}
+.form-group2 textarea:focus +  label{
+    display: none;
+}

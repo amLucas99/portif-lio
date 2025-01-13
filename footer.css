@@ -1,0 +1,22 @@
+.rodape{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(77, 75, 75);
+    justify-content: center;
+    padding: 2em;
+}
+.rodape img{
+    height: 3em;
+}
+.rodape .facebook{
+    margin: 0 1em 0 0;
+
+}
+.rodape .instagram{
+    margin: 0 0 0 1em;
+}
+.rodape .Whatsapp{
+    margin: 0 0 0 1.5em;
+}
